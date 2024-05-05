@@ -11,7 +11,12 @@
   },
   "dependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "@nextui-org/react": "^2.3.6",
+    "framer-motion": "^11.1.1",
+    "clsx": "^2.0.0",
+    "tailwind-variants": "^0.1.20",
+    "tailwindcss": "3.4.3"
   },
   "devDependencies": {
     "@types/react": "^18.2.66",
