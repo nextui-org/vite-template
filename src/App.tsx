@@ -9,11 +9,11 @@ function App() {
 
   return (
     <Routes>
-      <Route path='/' Component={IndexPage} />
-      <Route path='/docs' Component={DocsPage} />
-      <Route path='/pricing' Component={PricingPage} />
-      <Route path='/blog' Component={BlogPage} />
-      <Route path='/about' Component={AboutPage} />
+      <Route path='/' element={<IndexPage/>} />
+      <Route path='/docs' element={<DocsPage/>} />
+      <Route path='/pricing' element={<PricingPage/>} />
+      <Route path='/blog' element={<BlogPage/>} />
+      <Route path='/about' element={<AboutPage/>} />
     </Routes>
   )
 }
