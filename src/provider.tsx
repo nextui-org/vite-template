@@ -1,5 +1,5 @@
-import { NextUIProvider } from '@nextui-org/react';
-import { useNavigate } from 'react-router-dom';
+import { NextUIProvider } from "@nextui-org/react";
+import { useNavigate } from "react-router-dom";
 
 export function Provider({ children }: { children: React.ReactNode }) {
   const navigate = useNavigate();

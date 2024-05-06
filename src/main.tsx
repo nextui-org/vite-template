@@ -1,11 +1,12 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import App from './App.tsx'
-import { BrowserRouter } from 'react-router-dom';
-import { Provider } from './provider.tsx'
-import "@/styles/globals.css"
+import React from "react";
+import ReactDOM from "react-dom/client";
+import { BrowserRouter } from "react-router-dom";
 
-ReactDOM.createRoot(document.getElementById('root')!).render(
+import App from "./App.tsx";
+import { Provider } from "./provider.tsx";
+import "@/styles/globals.css";
+
+ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
     <BrowserRouter>
       <Provider>
@@ -13,4 +14,4 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
       </Provider>
     </BrowserRouter>
   </React.StrictMode>,
-)
+);
