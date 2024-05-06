@@ -10,7 +10,6 @@ This is a template for creating applications using Vite and NextUI (v2).
 - [Tailwind Variants](https://tailwind-variants.org)
 - [TypeScript](https://www.typescriptlang.org)
 - [Framer Motion](https://www.framer.com/motion)
-- [next-themes](https://github.com/pacocoursey/next-themes)
 
 ## How to Use
 
