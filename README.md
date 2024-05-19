@@ -2,6 +2,8 @@
 
 This is a template for creating applications using Vite and NextUI (v2).
 
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/nextui-org/vite-template)
+
 ## Technologies Used
 
 - [Vite](https://vitejs.dev/guide/)
