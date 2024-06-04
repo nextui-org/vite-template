@@ -2,8 +2,8 @@ import { FC, useState, useEffect } from "react";
 import { VisuallyHidden } from "@react-aria/visually-hidden";
 import { SwitchProps, useSwitch } from "@nextui-org/switch";
 import clsx from "clsx";
+import { useTheme } from "@nextui-org/use-theme";
 
-import { useTheme } from "@/hooks/use-theme";
 import { SunFilledIcon, MoonFilledIcon } from "@/components/icons";
 
 export interface ThemeSwitchProps {
@@ -17,9 +17,7 @@ export const ThemeSwitch: FC<ThemeSwitchProps> = ({
 }) => {
   const [isMounted, setIsMounted] = useState(false);
 
-  const { theme, toggleTheme } = useTheme();
-
-  const onChange = toggleTheme;
+  const { theme, setTheme } = useTheme();
 
   const {
     Component,
@@ -30,7 +28,7 @@ export const ThemeSwitch: FC<ThemeSwitchProps> = ({
     getWrapperProps,
   } = useSwitch({
     isSelected: theme === "light",
-    onChange,
+    onChange: () => setTheme(theme === "light" ? "dark" : "light"),
   });
 
   useEffect(() => {
