@@ -1,13 +1,13 @@
-# Vite & NextUI Template
+# Vite & HeroUI Template
 
-This is a template for creating applications using Vite and NextUI (v2).
+This is a template for creating applications using Vite and HeroUI (v2).
 
-[Try it on CodeSandbox](https://githubbox.com/nextui-org/vite-template)
+[Try it on CodeSandbox](https://githubbox.com/frontio-ai/vite-template)
 
 ## Technologies Used
 
 - [Vite](https://vitejs.dev/guide/)
-- [NextUI](https://nextui.org)
+- [HeroUI](https://heroui.com)
 - [Tailwind CSS](https://tailwindcss.com)
 - [Tailwind Variants](https://tailwind-variants.org)
 - [TypeScript](https://www.typescriptlang.org)
@@ -18,7 +18,7 @@ This is a template for creating applications using Vite and NextUI (v2).
 To clone the project, run the following command:
 
 ```bash
-git clone https://github.com/nextui-org/vite-template.git
+git clone https://github.com/frontio-ai/vite-template.git
 ```
 
 ### Install dependencies
@@ -40,11 +40,11 @@ npm run dev
 If you are using `pnpm`, you need to add the following code to your `.npmrc` file:
 
 ```bash
-public-hoist-pattern[]=*@nextui-org/*
+public-hoist-pattern[]=*@heroui/*
 ```
 
 After modifying the `.npmrc` file, you need to run `pnpm install` again to ensure that the dependencies are installed correctly.
 
 ## License
 
-Licensed under the [MIT license](https://github.com/nextui-org/vite-template/blob/main/LICENSE).
+Licensed under the [MIT license](https://github.com/frontio-ai/vite-template/blob/main/LICENSE).
