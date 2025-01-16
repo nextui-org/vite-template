@@ -1,6 +1,6 @@
 import type { NavigateOptions } from "react-router-dom";
 
-import { NextUIProvider } from "@nextui-org/system";
+import { HeroUIProvider } from "@heroui/system";
 import { useHref, useNavigate } from "react-router-dom";
 
 declare module "@react-types/shared" {
@@ -13,8 +13,8 @@ export function Provider({ children }: { children: React.ReactNode }) {
   const navigate = useNavigate();
 
   return (
-    <NextUIProvider navigate={navigate} useHref={useHref}>
+    <HeroUIProvider navigate={navigate} useHref={useHref}>
       {children}
-    </NextUIProvider>
+    </HeroUIProvider>
   );
 }
